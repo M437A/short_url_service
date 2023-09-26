@@ -1,0 +1,28 @@
+port: ":8080"
+
+url:
+  len_new_url: 6
+  prefix: "http://"
+  queue: 15
+
+db:
+  url: "postgres://postgres:qwerty@localhost:5432/short_url"
+
+kafka:
+  brokerAddress: localhost:9092
+  tcp: tcp
+  partition: 0
+  groupID: group
+  topics:
+    analysis_topic: analysis_topic
+
+cache:
+  min_request: 3
+
+analytic:
+  api: 1a17c56088269a196eef7620f0cf873b
+
+redis:
+  host: localhost:6379
+
+
