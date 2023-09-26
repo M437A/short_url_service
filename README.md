@@ -16,7 +16,7 @@
 
 1. **Receive short link requests from users.**
 2. **Check the cache for corresponding long URLs.** If a long URL is not found in the cache, *asynchronously record it, along with the count of monthly calls. If the call count is high, cache the data as well.*
-3. **Query the database to fetch the corresponding long URL.** *Concurrently, send data to Amplitude analytics through a message broker (e.g., Kafka).*
+3. **Query the database to fetch the corresponding long URL.** *Concurrently, send data to Amplitude analytics through a message broker (Kafka).*
 
 This dual-controller approach ensures **efficient management of shortened URL addresses**, enabling **rapid resolution** for users and **data collection and analysis** to enhance the project.
 
