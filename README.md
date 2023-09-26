@@ -3,7 +3,7 @@
 Welcome to my personal URL shortener project! This small yet impactful project showcases my knowledge and skills in web development. It's a simple tool that takes long, unwieldy URLs and turns them into concise and easy-to-share links.
 
 ## Project Overview
-![image](https://github.com/M437A/short_url_service/assets/105558638/df1f72d4-4604-4428-9471-b85d9bbc06f1)
+![image](https://github.com/M437A/short_url_service/assets/105558638/853b38e7-92b5-475f-aed1-9f75c9a26f70)
 
 ### URL Shortening Controller:
 
@@ -20,6 +20,12 @@ Welcome to my personal URL shortener project! This small yet impactful project s
 This dual-controller approach ensures efficient management of shortened URL addresses, enabling rapid resolution for users and data collection and analysis to enhance the project.
 
 Implementing URL shortening mechanisms with comprehensive analytics and caching can be highly beneficial for tracking popular links and improving performance in handling user requests.
+
+**Reliability and Efficiency**
+
+This approach guarantees the uniqueness of URLs while maintaining rapid URL creation. It ensures a smooth and secure user experience, even during high traffic loads.
+
+In summary, our URL generation method strikes a balance between speed and reliability, making it an ideal choice for robust URL shortening services.
 
 ## Technology Stack
 
