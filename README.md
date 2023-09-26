@@ -1,10 +1,9 @@
 # My Personal URL Shortener
 
-![Project Image](https://github.com/M437A/short_url_service/assets/105558638/853b38e7-92b5-475f-aed1-9f75c9a26f70)
-
 **Welcome to my personal URL shortener project!** This tool transforms long URLs into easy-to-share links and showcases my web development skills.
 
 ## Project Overview
+![Project Image](https://github.com/M437A/short_url_service/assets/105558638/853b38e7-92b5-475f-aed1-9f75c9a26f70)
 
 ### URL Shortening Controller:
 
